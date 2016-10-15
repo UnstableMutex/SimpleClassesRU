@@ -35,6 +35,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Case.cs" />
     <Compile Include="Ext.cs" />
     <Compile Include="Gender.cs" />
     <Compile Include="IReadOnlySimpleFIO.cs" />

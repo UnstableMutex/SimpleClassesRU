@@ -1,7 +1,17 @@
 ﻿namespace SimpleClasses
 {
+    /// <summary>
+    /// Пол 
+    /// </summary>
     public enum Gender
     {
-        Male=1,Female=2
+        /// <summary>
+        /// Мужской
+        /// </summary>
+        Male=1,
+        /// <summary>
+        /// Женский
+        /// </summary>
+        Female =2
     }
 }
