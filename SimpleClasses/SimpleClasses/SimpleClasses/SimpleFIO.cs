@@ -5,7 +5,7 @@ using System.Text;
 namespace SimpleClasses
 {
     [Serializable]
-    public class SimpleFIO
+    public class SimpleFIO : IReadOnlySimpleFIO
     {
         public string Surname { get; set; }
         public string FirstName { get; set; }
